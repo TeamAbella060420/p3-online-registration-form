@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Luxurious+Roman&family=Open+Sans:wght@300;400;500&family=Playfair+Display&family=Raleway:wght@300;500;700&family=Syne+Tactile&family=Ubuntu:wght@300;400;700&family=Work+Sans:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Project-3</title>
@@ -27,37 +23,39 @@
         <hr class="before"/>
     
     <div class="section-2">
-        <h2>Contact Information</h2>
+        <fieldset>
+        <legend><h2>Contact Information</h2></legend>
         <form>
+          
             <div class="top-form">
 
             <div class="input-section">
-            <label class="info">Full Name</label>
-            <input type="text" id="fullname" placeholder="Required" Required/>
+                <label class="info" for="fullname">Full Name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Required" required><br>
             </div>
 
             <div class="input-section">
-            <label class="info">Email Address</label>
-            <input type="text" id="emailadd" placeholder="Required" Required/>
+                <label class="info" for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Required" required>
             </div>
 
             <div class="input-section">
-            <label class="info">Phone Number</label>
-            <input type="text" id="phonenumber" />
+                <label class="info" for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
             </div>
 
             <div class="input-section">
-            <label class="info">Street Address</label>
-            <input type="text" id="stadd"/>
+                <label class="info" for="StreetAddress">Street Address</label>
+                <input type="text" id="saddress" name="saddress" required>
             </div>
 
             <div class="input-section">
-            <label class="info">City</label>
-            <input type="text" id="city"/>
+                <label class="info" for="city">City</label>
+                <input type="text" id="city" name="city" required>
             </div>   
 
             <div class="input-section">
-            <label class="info">State</label>
+            <label class="info" for="state">State</label>
             <select>
                 <option value="AL">Choose State</option>
                 <option value="AL">Alabama</option>
@@ -112,13 +110,15 @@
                 <option value="WI">Wisconsin</option>
                 <option value="WY">Wyoming</option>
             </select>
-            </div>
+                  </div>
           
      
                 <div class="zipcode">
-                <label class="zip">Zip Code</label>
-                <input type="text" id="zipcode"/>
+                    <label for="zipcode">Zip Code</label>
+                    <input type="text" id="zipcode" name="zipcode" required>
                 </div>
+                <br>
+            </fieldset>
         
             </div>
             <hr class="bottom"/>
@@ -149,6 +149,7 @@
 
                 <p class="copy">Copyright The Code Review</p>
             </div>
+      
         </form>
     </div>
     </div>
