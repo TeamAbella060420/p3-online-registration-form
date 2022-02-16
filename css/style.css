@@ -227,7 +227,7 @@ input[type=text]:focus {
     #zipcode {
         width: 24%;
         margin-left: 20%;
-        margin-bottom: 18%;
+        margin-bottom: 5%;
         margin-top: 0%;
     }
     .top-form input {
@@ -256,7 +256,7 @@ input[type=text]:focus {
         margin-left: 0%;
     }
     h2 {
-        padding: 35px 0px 10px 0px;
+        padding: 12px 0px 10px 0px;
     }
     button {
         width: 103%;
@@ -293,11 +293,11 @@ input[type=text]:focus {
     }
     .bottom {
         border-top: 2px solid #3a3535;
-        width: 96%;
+        width: 94%;
     }
     .before {
         height: auto;
-        width: 94%;
+        width: 93%;
         border-top: 5px solid #3a3535;
         border-bottom: 3px solid #3a3535;
         padding: 2.5px;
