@@ -6,6 +6,8 @@ body{
 html, body {
     overflow-x: hidden;
     margin: auto;
+    font-family: 'Roboto Serif', sans-serif;
+
   }
 header {
     background-color: rgb(25, 25, 34);
@@ -14,6 +16,9 @@ header {
     color: white;
     width: 100%;
     margin: auto;  
+}
+h1 {
+    text-transform: uppercase;
 }
 .container {
     color: rgb(110, 109, 109);
@@ -24,17 +29,19 @@ h2 {
     color: rgb(41, 35, 35);
     text-align:left;
     margin: auto;
+    padding-top: 30px;
+    font-size: 1.1em;
 }
 .before {
     height: auto;
-    width: 98%;
+    width: 90%;
     border-top: 5px solid #3a3535;
     border-bottom: 3px solid #3a3535;
     padding: 2.5px;
     }
 .bottom {
     border-top: 2px solid #3a3535;
-    width: 100%;
+    width: 90%;
 }
 .top-form label {
     display: block;
@@ -44,13 +51,13 @@ h2 {
     margin-bottom: 5px;
     margin-top: 10px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 13px;
     border: none;
 }
 .p-1 {
     padding: 5px 20px 5px 20px;
     text-align: center;
-    font-size: 20px;
+    font-size: 13px;
 }
 .signup {
     text-align: center;
@@ -61,7 +68,7 @@ h2 {
     border-radius: 5px;
     background-color: rgb(245, 238, 238);
     border: none;
-    font-size: 20px;
+    font-size: 13px;
     color: gray;
 }
 input {
@@ -82,7 +89,7 @@ input:focus {
     background-color: rgb(245, 238, 238);
     border: none;
     color: gray;
-    font-size: 20px;
+    font-size: 13px;
 }
 ::-webkit-input-placeholder {
     font-style: italic;
@@ -105,7 +112,7 @@ textarea {
     border-radius: 5px;
     background-color: rgb(245, 238, 238);
     border: none;
-    font-size: 20px;
+    font-size: 13px;
     color: gray;
     text-align: left;
 }
@@ -113,7 +120,7 @@ textarea {
     margin-left: 0px;
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 13px;
 }
 textarea {
     overflow: auto;
@@ -133,7 +140,7 @@ button {
     border-radius: 5px;
     color: white;
     padding: 20px;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
 }
 .copy {
@@ -141,7 +148,7 @@ button {
     text-align: center;
 }
 textarea {
-    width: 106%;
+    width: 98%;
     height: 100px;
     text-align: left;
     padding-left: 1px;
@@ -156,7 +163,7 @@ textarea {
     margin-left: 0%;
 }
 .ta {
-    margin-left: -4%;
+    margin-left: 0%;
 }
 .news input[type=checkbox] + label{
     font-weight:normal;
@@ -174,6 +181,28 @@ input[type=radio] + label{
 input[type=radio]:checked + label{
     color:black;
 }
+.fset legend {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: rgb(41, 35, 35);
+    padding-top: 30px;
+}
+input[type=text]:focus {
+    border: 2px solid red;
+    border-radius: 4px;
+}
+.news2 {
+    padding-top: 25px;
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-size: 13px;
+
+}
+#zipcode {
+    width: 45%;
+}
+
 @media screen and (min-width: 768px) {
 
     .container {
@@ -196,13 +225,13 @@ input[type=radio]:checked + label{
         margin-bottom: 0%;
     }
     #zipcode {
-        width: 33%;
-        margin-left: 16%;
-        margin-bottom: 13%;
+        width: 24%;
+        margin-left: 20%;
+        margin-bottom: 18%;
         margin-top: 0%;
     }
     .top-form input {
-        width: 370%;
+        width: 340%;
         margin-left: 0%;
         margin-bottom: 0%;
     }
@@ -211,12 +240,12 @@ input[type=radio]:checked + label{
         width:100%;
     }
     .top-form select{
-        width: 380%;
+        width: 348%;
         margin-bottom: 1%;
 
     }
     textarea {
-        width: 106%;
+        width: 102%;
         height: 100px;
         text-align: left;
         padding-left: 1px;
@@ -233,7 +262,7 @@ input[type=radio]:checked + label{
         width: 103%;
     }
     .signup {
-        font-size: 2rem;
+        font-size: 1.7rem;
         margin-bottom: -4%;        
     }
     .p-1 {
@@ -244,7 +273,7 @@ input[type=radio]:checked + label{
         margin-left: 0%;
     }
     .ta {
-        margin-left: -2%;
+        margin-left: 0%;
     }
     .news input[type=checkbox] + label{
         font-weight:normal;
@@ -261,6 +290,21 @@ input[type=radio]:checked + label{
       
     input[type=radio]:checked + label{
         color:black;
+    }
+    .bottom {
+        border-top: 2px solid #3a3535;
+        width: 96%;
+    }
+    .before {
+        height: auto;
+        width: 94%;
+        border-top: 5px solid #3a3535;
+        border-bottom: 3px solid #3a3535;
+        padding: 2.5px;
+    }
+    input[type=text]:focus {
+        border: 2px solid red;
+        border-radius: 4px;
     }
      
 }
