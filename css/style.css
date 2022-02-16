@@ -115,6 +115,7 @@ textarea {
     font-size: 13px;
     color: gray;
     text-align: left;
+    font-family: 'Roboto Serif', sans-serif;
 }
 .news {
     margin-left: 0px;
@@ -150,13 +151,14 @@ button {
 textarea {
     width: 98%;
     height: 100px;
+    padding: 10px 5px 5px 5px;
     text-align: left;
     padding-left: 1px;
-    padding-top: 1px;
     padding-bottom: 0.4em;
     padding-right: 0.4em;
     border:0;
     margin-left: 0%;
+    font-family: 'Roboto Serif', sans-serif;
 }
 .fset {
     border: none;
@@ -247,8 +249,8 @@ input[type=text]:focus {
         width: 102%;
         height: 100px;
         text-align: left;
-        padding-left: 1px;
-        padding-top: 1px;
+        padding-left: 10px;
+        padding-top: 10px;
         padding-bottom: 0.4em;
         padding-right: 0.4em;
         border:0;
