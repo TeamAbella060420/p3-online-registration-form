@@ -173,12 +173,12 @@ textarea {
 .news input[type=checkbox]:checked + label{
     color:black;
 }
-input[type=radio] + label{
+.news2 input[type=radio] + label{
     font-weight:normal;
     color: gray;
   }
   
-input[type=radio]:checked + label{
+.news2 input[type=radio]:checked + label{
     color:black;
 }
 .fset legend {
@@ -188,11 +188,10 @@ input[type=radio]:checked + label{
     padding-top: 30px;
 }
 input[type=text]:focus {
-    border: 2px solid red;
     border-radius: 4px;
 }
 .news2 {
-    padding-top: 25px;
+    padding-top: 4px;
     margin-left: 0px;
     margin-top: 5px;
     margin-bottom: 2px;
@@ -262,7 +261,7 @@ input[type=text]:focus {
         width: 103%;
     }
     .signup {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
         margin-bottom: -4%;        
     }
     .p-1 {
@@ -283,12 +282,12 @@ input[type=text]:focus {
     .news input[type=checkbox]:checked + label{
         color:black;
     }
-    input[type=radio] + label{
+    .news2 input[type=radio] + label{
         font-weight:normal;
         color: gray;
       }
       
-    input[type=radio]:checked + label{
+    .news2 input[type=radio]:checked + label{
         color:black;
     }
     .bottom {
@@ -303,7 +302,6 @@ input[type=text]:focus {
         padding: 2.5px;
     }
     input[type=text]:focus {
-        border: 2px solid red;
         border-radius: 4px;
     }
      
