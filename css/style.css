@@ -68,7 +68,7 @@ h2 {
 }
 .top-form input {
     width: 88%;
-    padding: 20px;
+    padding: 15px;
     border-radius: 5px;
     background-color: rgb(245, 238, 238);
     border: none;
@@ -88,7 +88,7 @@ input:focus {
 }
 .top-form select {
     width: 100%;
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
     background-color: rgb(245, 238, 238);
     border: none;
@@ -195,6 +195,21 @@ textarea {
 }
 input[type=text]:focus {
     border-radius: 4px;
+    color: rgb(34, 161, 155);
+}
+input[type=email]:focus {
+    border-radius: 4px;
+    color: rgb(34, 161, 155);
+ }
+input[type=tel]:focus {
+    border-radius: 4px;
+    color: rgb(34, 161, 155);
+}
+input[type=checkbox]:focus {
+    border-radius: 4px;
+}
+input[type=textarea]:focus {
+    border-radius: 4px;
 }
 .news2 {
     padding-top: 4px;
@@ -218,7 +233,7 @@ input[type=text]:focus {
 @media screen and (min-width: 768px) {
 
     .container {
-        width: 50%;
+        width: 60%;
         margin: auto;
         padding: 50px;
         margin-bottom: 10%;
@@ -232,18 +247,18 @@ input[type=text]:focus {
         display: flex;
         flex-direction: row;
         margin: auto;
-        width: 42%;  
+        width: 38%;  
         margin-left: 0%;
         margin-bottom: 0%;
     }
     #zipcode {
         width: 24%;
-        margin-left: 20%;
+        margin-left: 39%;
         margin-bottom: 5%;
         margin-top: 0%;
     }
     .top-form input {
-        width: 340%;
+        width: 300%;
         margin-left: 0%;
         margin-bottom: 0%;
     }
@@ -252,7 +267,7 @@ input[type=text]:focus {
         width:100%;
     }
     .top-form select{
-        width: 348%;
+        width: 310%;
         margin-bottom: 1%;
 
     }
@@ -305,11 +320,11 @@ input[type=text]:focus {
     }
     .bottom {
         border-top: 2px solid #3a3535;
-        width: 94%;
+        width: 97%;
     }
     .before {
         height: auto;
-        width: 93%;
+        width: 95%;
         border-top: 5px solid #3a3535;
         border-bottom: 3px solid #3a3535;
         padding: 2.5px;
@@ -329,4 +344,19 @@ input[type=text]:focus {
     width: 98%;
     margin-right: 43%;
     }
+    input[type=email]:focus {
+        border-radius: 4px;
+        color: rgb(34, 161, 155);
+    }
+    input[type=tel]:focus {
+        border-radius: 4px;
+        color: rgb(34, 161, 155);
+    }
+    input[type=checkbox]:focus {
+        border-radius: 4px;
+    }
+    input[type=textarea]:focus {
+        border-radius: 4px;
+    }
+       
  }
