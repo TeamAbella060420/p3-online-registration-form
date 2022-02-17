@@ -272,7 +272,7 @@ input[type=textarea]:focus {
 
     }
     textarea {
-        width: 100%;
+        width: 99%;
         height: 100px;
         text-align: left;
         padding-left: 10px;
@@ -286,7 +286,7 @@ input[type=textarea]:focus {
         padding: 12px 0px 10px 0px;
     }
     button {
-        width: 103%;
+        width: 101%;
     }
     .signup {
         font-size: 1.4rem;
