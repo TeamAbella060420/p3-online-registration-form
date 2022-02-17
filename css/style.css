@@ -230,7 +230,7 @@ input[type=textarea]:focus {
     display: inline-block;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
 
     .container {
         width: 60%;
@@ -358,6 +358,5 @@ input[type=textarea]:focus {
     }
     input[type=textarea]:focus {
         border-radius: 4px;
-    }
-       
- }
+    }       
+}
