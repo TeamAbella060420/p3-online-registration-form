@@ -251,15 +251,16 @@ input[type=textarea]:focus {
         flex-direction: row;
         margin: auto;
         margin-left: 0%;
-        width: 66%;
+        width: 51%;
         margin-bottom: 0%;
     }
-    #zipcode {
-        width: 25%;
-        margin-left: 57%;
+   #zipcode {
+        width: 34%;
+        margin-left: 42%;
         margin-bottom: 5%;
         margin-top: 0%;
-      }
+    }
+      
     }
     .top-form input {
         width: 100%;
@@ -268,7 +269,7 @@ input[type=textarea]:focus {
     }
     .info {
         text-align: left;
-        width:100%;
+        width:50%;
     }
     .top-form select{
         width: 100%;
