@@ -60,6 +60,7 @@ h2 {
     font-weight: bold;
     font-size: 13px;
     border: none;
+    width: 100%;
 }
 .p-1 {
     padding: 5px 20px 5px 20px;
@@ -251,14 +252,17 @@ input[type=textarea]:focus {
         flex-direction: row;
         margin: auto;
         margin-left: 0%;
-        width: 51%;
+        width: 65%;
         margin-bottom: 0%;
     }
    #zipcode {
-        width: 34%;
+        width: 60%;
         margin-left: 42%;
         margin-bottom: 5%;
         margin-top: 0%;
+    }
+    .zipcode input {
+        width: 25%;
     }
       
     }
