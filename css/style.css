@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body{    
     margin: 0px;
     padding: 0px;
@@ -247,12 +250,12 @@ input[type=textarea]:focus {
         display: flex;
         flex-direction: row;
         margin: auto;
-        width: 38%;  
+        width: 35%;  
         margin-left: 0%;
         margin-bottom: 0%;
     }
     #zipcode {
-        width: 22%;
+        width: 29%;
         margin-left: 40%;
         margin-bottom: 5%;
         margin-top: 0%;
@@ -272,7 +275,7 @@ input[type=textarea]:focus {
 
     }
     textarea {
-        width: 99%;
+        width: 101%;
         height: 100px;
         text-align: left;
         padding-left: 10px;
