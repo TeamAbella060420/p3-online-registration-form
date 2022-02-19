@@ -250,18 +250,19 @@ input[type=textarea]:focus {
         display: flex;
         flex-direction: row;
         margin: auto;
-        width: 35%;  
         margin-left: 0%;
+        width: 66%;
         margin-bottom: 0%;
     }
     #zipcode {
-        width: 29%;
-        margin-left: 40%;
+        width: 25%;
+        margin-left: 57%;
         margin-bottom: 5%;
         margin-top: 0%;
+      }
     }
     .top-form input {
-        width: 300%;
+        width: 100%;
         margin-left: 0%;
         margin-bottom: 0%;
     }
@@ -270,7 +271,7 @@ input[type=textarea]:focus {
         width:100%;
     }
     .top-form select{
-        width: 310%;
+        width: 100%;
         margin-bottom: 1%;
 
     }
@@ -362,4 +363,3 @@ input[type=textarea]:focus {
     input[type=textarea]:focus {
         border-radius: 4px;
     }       
-}
