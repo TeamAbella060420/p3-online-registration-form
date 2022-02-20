@@ -363,5 +363,9 @@ textarea:focus {
     textarea:focus {
         border-radius: 4px;
         color: rgb(34, 161, 155);
-    }       
+    }    
+    select:focus {
+        border-radius: 4px;
+        color: rgb(34, 161, 155);
+    }        
 
