@@ -196,14 +196,6 @@ textarea {
     padding-top: 30px;
 }
 
-input[type=email]:focus {
-    border-radius: 4px;
-    color: rgb(34, 161, 155);
- }
-input[type=tel]:focus {
-    border-radius: 4px;
-    color: rgb(34, 161, 155);
-}
 input:focus {
     border-radius: 4px;
     color: rgb(34, 161, 155);
@@ -348,14 +340,7 @@ textarea:focus {
         width: 98%;
         margin-right: 43%;
     }
-    input[type=email]:focus {
-        border-radius: 4px;
-        color: rgb(34, 161, 155);
-    }
-    input[type=tel]:focus {
-        border-radius: 4px;
-        color: rgb(34, 161, 155);
-    }
+
     input:focus {
         border-radius: 4px;
         color: rgb(34, 161, 155);
