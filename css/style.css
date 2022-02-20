@@ -286,6 +286,11 @@ textarea:focus {
     }
     button {
         width: 101%;
+        cursor: pointer;
+        color: #fff;
+    }
+    button:hover {
+        opacity: .75;
     }
     .signup {
         font-size: 1.4rem;
