@@ -1,228 +1,226 @@
-* {
+*   
+    {
     box-sizing: border-box;
-}
-body{    
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-}
-html, body {
-    overflow-x: hidden;
-    margin: auto;
-    font-family: 'Roboto Serif', sans-serif;
-  }
-header {
-    background-color: rgb(25, 25, 34);
-    text-align: center;
-    padding: 15px;
-    color: white;
-    width: 100%;
-    margin: auto;  
-}
-h1 {
-    text-transform: uppercase;
-    text-align: center;
-    width: 93%;
-    margin-right: 43%;
-}
-.container {
-    color: rgb(110, 109, 109);
-    padding: 5%;
-}
-h2 {
-    font-weight: bold;
-    color: rgb(41, 35, 35);
-    text-align:left;
-    margin: auto;
-    padding-top: 30px;
-    font-size: 1.1em;
-}
-.before {
-    height: auto;
-    width: 90%;
-    border-top: 5px solid #3a3535;
-    border-bottom: 3px solid #3a3535;
-    padding: 2.5px;
     }
-.bottom {
-    border-top: 2px solid #3a3535;
-    width: 90%;
-}
-.top-form label {
-    display: block;
-    padding: 5px 15px 5px 5px;
-    height: 0px;
-    margin: auto;
-    margin-bottom: 18px;
-    margin-top: 5px;
-    font-weight: bold;
-    font-size: 13px;
-    border: none;
-    width: 100%;
-}
-.p-1 {
-    padding: 5px 20px 5px 20px;
-    text-align: center;
-    font-size: 13px;
-}
-.signup {
-    text-align: center;
-}
-.top-form input {
-    width: 88%;
-    padding: 15px;
-    border-radius: 5px;
-    background-color: rgb(245, 238, 238);
-    border: none;
-    font-size: 13px;
-    color: gray;
-}
-input {
-    text-align: right;
-    transition-duration: .5s;
-}
-fieldset {
-    border: none;
-}
-input:focus {
-    text-align: left;
-    padding: 15px;
-}
-.top-form select {
-    width: 98%;
-    padding: 15px;
-    border-radius: 8px;
-    background-color: rgb(245, 238, 238);
-    border: none;
-    color: gray;
-    font-size: 13px;
-}
-::-webkit-input-placeholder {
-    font-style: italic;
- }
- :-moz-placeholder {
-    font-style: italic;  
- }
- ::-moz-placeholder {
-    font-style: italic;  
- }
- :-ms-input-placeholder {  
-    font-style: italic; 
- }
-.zipcode {
-    width: 50%;
-}
-textarea {
-    width: 88%;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: rgb(245, 238, 238);
-    border: none;
-    font-size: 13px;
-    color: gray;
-    text-align: left;
-    font-family: 'Roboto Serif', sans-serif;
-}
-.news {
-    margin-left: 0px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 13px;
-}
-textarea {
-    overflow: auto;
-    text-align: start;
-}
-.news-label {
-    margin-top: 20px;
-}
-.last {
-    text-align: center;
-    margin-top: 20px;
-}
-button {
-    width: 100%;
-    background: rgb(73, 216, 209);
-    border: none;
-    border-radius: 5px;
-    color: white;
-    padding: 20px;
-    font-size: 24px;
-    font-weight: 700;
-}
-.copy {
-    font-style: italic;
-    text-align: center;
-}
-textarea {
-    width: 98%;
-    height: 100px;
-    padding: 10px 5px 5px 5px;
-    text-align: left;
-    padding-left: 1px;
-    padding-bottom: 0.4em;
-    padding-right: 0.4em;
-    border:0;
-    margin-left: 0%;
-    font-family: 'Roboto Serif', sans-serif;
-}
-.fset {
-    border: none;
-    margin-left: 0%;
-}
-.ta {
-    margin-left: 0%;
-}
-.news input[type=checkbox] + label{
-    font-weight:normal;
-    color: gray;
-  }
-  
-.news input[type=checkbox]:checked + label{
-    color:black;
-}
-.news2 input[type=radio] + label{
-    font-weight:normal;
-    color: gray;
-}
-  
-.news2 input[type=radio]:checked + label{
-    color:black;
-}
-.fset legend {
-    font-weight: bold;
-    font-size: 1.1em;
-    color: rgb(41, 35, 35);
-    padding-top: 30px;
-}
-
-input:focus {
-    border-radius: 4px;
-    color: rgb(34, 161, 155);
-}
-textarea:focus {
-    border-radius: 4px;
-    color: rgb(34, 161, 155);
-}   
-.news2 {
-    padding-top: 4px;
-    margin-left: 0px;
-    margin-top: 5px;
-    margin-bottom: 2px;
-    font-size: 13px;
-
-}
-#zipcode {
-    width: 100%;
-    padding: 15px;
-}
-.text-review label{
-    font-size: 13px;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    width: 200px;
-    display: inline-block;
-}
+    body{    
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    html, body {
+        overflow-x: hidden;
+        margin: auto;
+        font-family: 'Roboto Serif', sans-serif;
+    }
+    header {
+        background-color: rgb(25, 25, 34);
+        text-align: center;
+        padding: 15px;
+        color: white;
+        width: 100%;
+        margin: auto;  
+    }
+    h1 {
+        text-transform: uppercase;
+        text-align: center;
+        width: 93%;
+        margin-right: 43%;
+    }
+    .container {
+        color: rgb(110, 109, 109);
+        padding: 5%;
+    }
+    h2 {
+        font-weight: bold;
+        color: rgb(41, 35, 35);
+        text-align:left;
+        margin: auto;
+        padding-top: 30px;
+        font-size: 1.1em;
+    }
+    .before {
+        height: auto;
+        width: 90%;
+        border-top: 5px solid #3a3535;
+        border-bottom: 3px solid #3a3535;
+        padding: 2.5px;
+        }
+    .bottom {
+        border-top: 2px solid #3a3535;
+        width: 90%;
+    }
+    .top-form label {
+        display: block;
+        padding: 5px 15px 5px 5px;
+        height: 0px;
+        margin: auto;
+        margin-bottom: 18px;
+        margin-top: 5px;
+        font-weight: bold;
+        font-size: 13px;
+        border: none;
+        width: 100%;
+    }
+    .p-1 {
+        padding: 5px 20px 5px 20px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .signup {
+        text-align: center;
+    }
+    .top-form input {
+        width: 88%;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: rgb(211, 201, 201);
+        border: none;
+        font-size: 13px;
+        color: gray;
+    }
+    input {
+        text-align: right;
+        transition-duration: .5s;
+    }
+    fieldset {
+        border: none;
+    }
+    input:focus {
+        text-align: left;
+        padding: 15px;
+    }
+    .top-form select {
+        width: 98%;
+        padding: 15px;
+        border-radius: 8px;
+        background-color: rgb(211, 201, 201);
+        border: none;
+        color: gray;
+        font-size: 13px;
+    }
+    ::-webkit-input-placeholder {
+        font-style: italic;
+    }
+    :-moz-placeholder {
+        font-style: italic;  
+    }
+    ::-moz-placeholder {
+        font-style: italic;  
+    }
+    :-ms-input-placeholder {  
+        font-style: italic; 
+    }
+    .zipcode {
+        width: 50%;
+    }
+    textarea {
+        width: 88%;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: rgb(211, 201, 201);
+        border: none;
+        font-size: 13px;
+        color: gray;
+        text-align: left;
+        font-family: 'Roboto Serif', sans-serif;
+    }
+    .news {
+        margin-left: 0px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+    textarea {
+        overflow: auto;
+        text-align: start;
+    }
+    .news-label {
+        margin-top: 20px;
+    }
+    .last {
+        text-align: center;
+        margin-top: 20px;
+    }
+    button {
+        width: 100%;
+        background: rgb(73, 216, 209);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 20px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .copy {
+        font-style: italic;
+        text-align: center;
+    }
+    textarea {
+        width: 98%;
+        height: 100px;
+        padding: 10px 5px 5px 5px;
+        text-align: left;
+        padding-left: 1px;
+        padding-bottom: 0.4em;
+        padding-right: 0.4em;
+        border:0;
+        margin-left: 0%;
+        font-family: 'Roboto Serif', sans-serif;
+    }
+    .fset {
+        border: none;
+        margin-left: 0%;
+    }
+    .ta {
+        margin-left: 0%;
+    }
+    .news input[type=checkbox] + label{
+        font-weight:normal;
+        color: gray;
+    }  
+    .news input[type=checkbox]:checked + label{
+        color:black;
+    }
+    .news2 input[type=radio] + label{
+        font-weight:normal;
+        color: gray;
+    }
+    
+    .news2 input[type=radio]:checked + label{
+        color:black;
+    }
+    .fset legend {
+        font-weight: bold;
+        font-size: 1.1em;
+        color: rgb(41, 35, 35);
+        padding-top: 30px;
+    }
+    input:focus, 
+    select:focus,
+    textarea:focus
+    {
+        border-radius: 4px;
+        color: rgb(11, 235, 223);
+        text-align: left;
+    }   
+    .news2 {
+        padding-top: 4px;
+        margin-left: 0px;
+        margin-top: 5px;
+        margin-bottom: 2px;
+        font-size: 13px;
+    }
+    #zipcode {
+        width: 100%;
+        padding: 15px;
+    }
+    .text-review label{
+        font-size: 13px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        width: 200px;
+        display: inline-block;
+    }
 
 @media screen and (min-width:768px) {
 
@@ -245,7 +243,7 @@ textarea:focus {
         width: 65%;
         margin-bottom: 0%;
     }
-   #zipcode {
+    #zipcode {
         width: 60%;
         margin-left: 42%;
         margin-bottom: 5%;
@@ -268,6 +266,7 @@ textarea:focus {
     .top-form select{
         width: 100%;
         margin-bottom: 1%;
+        text-align: right;
 
     }
     textarea {
@@ -345,17 +344,11 @@ textarea:focus {
         width: 100%;
         margin-right: 43%;
     }
-
-    input:focus {
+    input:focus, 
+    select:focus,
+    textarea:focus
+     {
         border-radius: 4px;
-        color: rgb(34, 161, 155);
+        color: rgb(48, 12, 180);
+        text-align: left;
     }
-    textarea:focus {
-        border-radius: 4px;
-        color: rgb(34, 161, 155);
-    }    
-    select:focus {
-        border-radius: 4px;
-        color: rgb(34, 161, 155);
-    }        
-
